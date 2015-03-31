@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">PocketSphinx Demo</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    
+    <string name="kws_caption">To start demonstration say \"Good Morning\".</string>
+    <string name="menu_caption">Say \"little talk\" or \"forecast\" to choose particular example.</string>
+    <!-- <string name="digits_caption">Let\'s recognize some digits: say something like \"one two three four five\".</string> -->
+    <string name="digits_caption">
+        "1. allow [child] to choose &lt;noisy words&gt; from selection\n"
+		"2. parents completed &lt;noisy words&gt; previous assignment\n"
+		"3. begins &lt;noisy words&gt; associative play\n"
+		"4. [CDP] ([[and][reviewed today's family play group]]| [[and] [invite mom to upcoming play group]])+\n"
+		"5. [CDP] [will] encourage associative play [through|via] animated demonstration [and purposeful play]\n"
+		"6. Encourage more book (exploration | reading) &lt;noisy words&gt; during the week\n"
+		"7. ((Start talking)|talk) about safety proofing in mom's parents' home\n"
+		"8. [They have] read &lt;#one-ten&gt; times together this week\n"
+		"9. Replaces &lt;noisy words&gt; some objects where &lt;noisy words&gt; they belong\n"
+		"10. Come to group at least once before (the program|this|the) year ends\n"
+		"11. Put the toys back to their original places\n"
+		"12. Come to group with [the] kids"
+		</string>
+    <string name="forecast_caption">Say something typical to a weather forecast like \"sunny spells on Wednesday\".</string>
+    
+    <string-array name="number_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="text_array">
+        <item>1; allow [child] to choose from selection</item>
+        <item>2; parents completed previous assignment</item>
+        <item>3; begins associative play</item>
+        <item>4; [CDP] ([[and][reviewed today\'s family play group]]| [[and] [invite mom to upcoming play group]])+</item>
+        <item>5; [CDP] [will] encourage associative play [through|via] animated demonstration [and purposeful play]</item>
+        <item>6; encourage more book (exploration | reading) during the week</item>
+        <item>7; [start talking] talk about safety proofing in mom\'s parents\' home</item>
+        <item>8; [they have] read # times together this week</item>
+        <item>9; replaces some objects where they belong</item>
+        <item>10; come to group at least once before (the program|this|the) year ends</item>
+        <item>11; put the toys back to their original places</item>
+        <item>12; come to group with [the] kids</item>
+    </string-array>
+</resources>

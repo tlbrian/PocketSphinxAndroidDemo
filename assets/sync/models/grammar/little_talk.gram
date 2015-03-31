@@ -1,0 +1,64 @@
+#JSGF V1.0;
+
+grammar little_talk;
+
+public <little_talk> = 	(allow [child] to choose <garbage_loop> from selection) |
+						(begins <garbage_loop> associative play) |
+						(parents completed <garbage_loop> previous assignment) |
+						([CDP] ([[and][reviewed today's family play group]]| [[and] [invite mom to upcoming play group]])+) |
+						([CDP] [will] encourage associative play [through|via] animated demonstration [and purposeful play]) |
+						(encourage more book (exploration | reading) <garbage_loop> during the week) |
+						(((start talking)|talk) about safety proofing in mom's parents' home) |
+						([they have] read <number> times together this week) |
+						(replaces <garbage_loop> some objects where <garbage_loop> they belong) |
+						(come to group at least once before (the program|this|the) year ends) |
+						(put the toys back to their original places) |
+						(come to group with [the] kids);
+
+
+<number> = (one | two | three | four | five | six | seven | eight | nine | ten);
+
+<garbage_loop> = ( <G1>  | <G2>  | <G3>  | <G4>  | <G5>  | <G6>  | <G7>  | <G8>  | <G9>  | <G10> | <G11> | <G12>
+						| <G13> | <G14> | <G15> | <G16> | <G17> | <G18> | <G19> | <G20> | <G21> | <G22> | <G23> | <G24> | <G25>
+						| <G26> | <G27> | <G28> | <G29> | <G30> | <G31> | <G32> | <G33> | <G34> | <G35> | <G36> | <G37> | <G38>
+						| <G39>)* ;
+						
+<G1> = odd;
+<G2> = at;
+<G3> = hut;
+<G4> = ought;
+<G5> = cow;
+<G6> = hide;
+<G7> = be;
+<G8> = cheese;
+<G9> = dee;
+<G10> = thee;
+<G11> = ed;
+<G12> = hurt;
+<G13> = ate;
+<G14> = fee;
+<G15> = green;
+<G16> = he;
+<G17> = it;
+<G18> = eat;
+<G19> = gee;
+<G20> = key;
+<G21> = lee;
+<G22> = me;
+<G23> = knee;
+<G24> = ping;
+<G25> = oat;
+<G26> = toy;
+<G27> = pee;
+<G28> = read;
+<G29> = sea;
+<G30> = she;
+<G31> = tea;
+<G32> = theta;
+<G33> = hood;
+<G34> = two;
+<G35> = vee;
+<G36> = we;
+<G37> = yield;
+<G38> = zee;
+<G39> = seizure;			

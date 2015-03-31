@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText 
+            android:id="@+id/username"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName" />
+        <Button 
+	        android:id="@+id/openFile_button"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:gravity="center"
+	        android:onClick="openFile"
+	        android:text="OK"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/caption_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="sans"
+        android:text="@string/digits_caption" />
+
+    <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        android:gravity="center" >
+	    <Spinner 
+	        android:id="@+id/number_spinner"
+	        android:layout_width="200dp"
+	        android:layout_height="50dp"
+	        android:gravity="center" />
+	    
+	    <Button 
+	        android:id="@+id/startListen_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:onClick="startListen"
+	        android:text="Tap to Speak"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+</LinearLayout>
